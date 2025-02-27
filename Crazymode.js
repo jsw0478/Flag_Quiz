@@ -32,10 +32,10 @@ let YourAnswers = [];
 let CrazyLevel = 1;
 let CorrectNumber = 0;
 
-const Crazy1 = ['./5.Crazy/Crazy 1/Egypt(이집트2).png', 
-    './5.Crazy/Crazy 1/Republic of Iraq(이라크).png', 
-    './5.Crazy/Crazy 1/Republic of Yemen(예멘).png', 
-    './5.Crazy/Crazy 1/Syria(시리아).png'];
+const Crazy1 = ['../5.Crazy/Crazy 1/Egypt(이집트2).png', 
+    '../5.Crazy/Crazy 1/Republic of Iraq(이라크).png', 
+    '../5.Crazy/Crazy 1/Republic of Yemen(예멘).png', 
+    '../5.Crazy/Crazy 1/Syria(시리아).png'];
 const Crazy1Asrs = ['이집트', '이라크', '예멘', '시리아']
 
 const Crazy2 = ['./5.Crazy./Crazy 2/Færøerne(페로 제도).png', 
