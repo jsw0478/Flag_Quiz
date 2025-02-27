@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#2980b9, #6dd5fa, #ffffff);
+}
+
+.container {
+    width: 1000px;
+    height: 550px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    border: 2px solid black;
+    margin-top: 5%;
+}
+
+.A1 {
+    height: 30px;
+    font-size: 30px;
+}
+
+.A2 {
+    height: 30px;
+    font-size: 30px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #6dd5fa;
+    margin-top: 2%;
+}
