@@ -111,7 +111,7 @@ function result(Number) {
     Crazy.style.visibility = 'visible'
     Crazy.innerHTML = '타이틀로'
     next.onclick = () => {
-        window.open('C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Crazymode.html');
+        window.open('./Crazymode.html');
     }
     Crazy.onclick = () => {
         location.reload(true);
