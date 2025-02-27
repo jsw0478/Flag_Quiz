@@ -10,7 +10,7 @@ const img = document.getElementById('img');
 const Crazy = document.querySelector('.Crazy')
 let QuizStarted = 'false';
 let QuizNumber = 1;
-let QuizValue = ['한국', '미국', '중국', '일본', '한국', 'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\1.Easy\\Korea.png']
+let QuizValue = ['한국', '미국', '중국', '일본', '한국', './1.Easy/Korea.png']
 let YourAnswer = '';
 let CorrectNumber = 0;
 img.src = QuizValue[5];
@@ -22,7 +22,7 @@ A1.innerHTML = '국기 퀴즈';
 next.innerHTML = '시작'
 
 Crazy.onclick = () => {
-    window.open('C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Crazymode.html');
+    window.open('C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Quiz\\Crazymode.html');
 }
 
 function NextQuiz() {
@@ -32,37 +32,37 @@ function NextQuiz() {
     A2.innerHTML = ''
     next.disabled = true;
     if (QuizNumber == 2) {
-        QuizValue = ['중국', '일본', '영국', '프랑스', '일본', 'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\1.Easy\\Japan.png']
+        QuizValue = ['중국', '일본', '영국', '프랑스', '일본', './1.Easy/Japan.png']
     }
     else if (QuizNumber == 3) {
-        QuizValue = ['중국', '베트남', '멕시코', '미국', '중국', 'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\1.Easy\\China.png']
+        QuizValue = ['중국', '베트남', '멕시코', '미국', '중국', './1.Easy/China.png']
     }
     else if (QuizNumber == 4) {
-        QuizValue = ['영국', '대만', '미국', '한국', '미국', 'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\1.Easy\\USA.png']
+        QuizValue = ['영국', '대만', '미국', '한국', '미국', './1.Easy/USA.png']
     }
     else if (QuizNumber == 5) {
-        QuizValue = ['오스트리아', '이집트', '가나', '아르헨티나', '이집트', 'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\2.Normal\\Egypt.png']
+        QuizValue = ['오스트리아', '이집트', '가나', '아르헨티나', '이집트', './2.Normal/Egypt.png']
     }
     else if (QuizNumber == 6) {
-        QuizValue = ['뉴질랜드', '보스니아', '미국', '태국', '태국', 'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\2.Normal\\Kingdom of Thailand(태국).png']
+        QuizValue = ['뉴질랜드', '보스니아', '미국', '태국', '태국', './2.Normal/Kingdom of Thailand(태국).png']
     }
     else if (QuizNumber == 7) {
-        QuizValue = ['멕시코', '배트남', '캐나다', '러시아', '멕시코', 'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\2.Normal\\United Mexican States(멕시코).png']
+        QuizValue = ['멕시코', '배트남', '캐나다', '러시아', '멕시코', './2.Normal/United Mexican States(멕시코).png']
     }
     else if (QuizNumber == 8) {
-        QuizValue = ['호주', '이란', '시에라리온', '라이베리아', '이란', 'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\3.Hard\\Islamic Republic of Iran(이란).png']
+        QuizValue = ['호주', '이란', '시에라리온', '라이베리아', '이란', './3.Hard/Islamic Republic of Iran(이란).png']
     }
     else if (QuizNumber == 9) {
-        QuizValue = ['캄보디아', '룩셈부르크', '르완다', '미얀마', '캄보디아', 'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\3.Hard\\Kingdom of Cambodia(캄보디아).png']
+        QuizValue = ['캄보디아', '룩셈부르크', '르완다', '미얀마', '캄보디아', './3.Hard/Kingdom of Cambodia(캄보디아).png']
     }
     else if (QuizNumber == 10) {
-        QuizValue = ['라도니아', '키르기스스탄', '가이아나', '세인트빈센트 그레나딘', '세인트빈센트 그레나딘', 'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\4.insame\\Saint Vincent and the Grenadines(세인트빈센트 그레나딘).png']
+        QuizValue = ['라도니아', '키르기스스탄', '가이아나', '세인트빈센트 그레나딘', '세인트빈센트 그레나딘', './4.Insame/Saint Vincent and the Grenadines(세인트빈센트 그레나딘).png']
     }
     else if (QuizNumber == 11) {
-        QuizValue = ['니카라과', '상투메 프린시페', '세인트루시아', '니제르', '상투메 프린시페', 'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\4.insame\\República Democrática de São Tomé e Príncipe(상투메 프린시페).png']
+        QuizValue = ['니카라과', '상투메 프린시페', '세인트루시아', '니제르', '상투메 프린시페', './4.Insame/República Democrática de São Tomé e Príncipe(상투메 프린시페).png']
     }
     else if (QuizNumber == 12) {
-        QuizValue = ['세인트키츠 네비스', '동티모르', '라트비아', '파푸아뉴기니', '파푸아뉴기니', 'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\4.insame\\Independent State of Papua New Guinea(파푸아뉴기니).png']
+        QuizValue = ['세인트키츠 네비스', '동티모르', '라트비아', '파푸아뉴기니', '파푸아뉴기니', './4.Insame/Independent State of Papua New Guinea(파푸아뉴기니).png']
     }
     img.src = QuizValue[5]
     QuizStart(QuizValue)
