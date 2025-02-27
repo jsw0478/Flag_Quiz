@@ -22,7 +22,7 @@ A1.innerHTML = '국기 퀴즈';
 next.innerHTML = '시작'
 
 Crazy.onclick = () => {
-    window.open('C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Quiz\\Crazymode.html');
+    window.open('./Crazymode.html');
 }
 
 function NextQuiz() {
