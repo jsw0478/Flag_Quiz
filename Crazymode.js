@@ -32,22 +32,22 @@ let YourAnswers = [];
 let CrazyLevel = 1;
 let CorrectNumber = 0;
 
-const Crazy1 = ['C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\5.Crazy\\Crazy 1\\Egypt(이집트2).png', 
-    'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\5.Crazy\\Crazy 1\\Republic of Iraq(이라크).png', 
-    'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\5.Crazy\\Crazy 1\\Republic of Yemen(예멘).png', 
-    'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\5.Crazy\\Crazy 1\\Syria(시리아).png'];
+const Crazy1 = ['./5.Crazy./Crazy 1/Egypt(이집트2).png', 
+    './5.Crazy./Crazy 1/Republic of Iraq(이라크).png', 
+    './5.Crazy./Crazy 1/Republic of Yemen(예멘).png', 
+    './5.Crazy./Crazy 1/Syria(시리아).png'];
 const Crazy1Asrs = ['이집트', '이라크', '예멘', '시리아']
 
-const Crazy2 = ['C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\5.Crazy\\Crazy 2\\Færøerne(페로 제도).png', 
-    'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\5.Crazy\\Crazy 2\\Iceland(아이슬란드).png', 
-    'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\5.Crazy\\Crazy 2\\Kingdom of Denmark(덴마크).png', 
-    'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\5.Crazy\\Crazy 2\\Kingdom of Norway(노르웨이).png'];
+const Crazy2 = ['./5.Crazy./Crazy 2/Færøerne(페로 제도).png', 
+    './5.Crazy./Crazy 2/Iceland(아이슬란드).png', 
+    './5.Crazy./Crazy 2/Kingdom of Denmark(덴마크).png', 
+    './5.Crazy./Crazy 2/Kingdom of Norway(노르웨이).png'];
 const Crazy2Asrs = ['페로 제도', '아이슬란드', '덴마크', '노르웨이']
 
-const Crazy3 = ['C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\5.Crazy\\Crazy3\\Republic of the Sudan(수단).png', 
-    'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\5.Crazy\\Crazy3\\Hashemite Kingdom of Jordan(요르단).png', 
-    'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\5.Crazy\\Crazy3\\State of Palestine(팔레스타인).png', 
-    'C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Flag_Image\\5.Crazy\\Crazy3\\Sahrawi Arab Democratic Republic(사하라 아랍 민주 공화국).png'];
+const Crazy3 = ['./5.Crazy./Crazy 3/Republic of the Sudan(수단).png', 
+    './5.Crazy./Crazy 3/Hashemite Kingdom of Jordan(요르단).png', 
+    './5.Crazy./Crazy 3/State of Palestine(팔레스타인).png', 
+    './5.Crazy./Crazy 3/Sahrawi Arab Democratic Republic(사하라 아랍 민주 공화국).png'];
 const Crazy3Asrs = ['수단', '요르단', '팔레스타인', '사하라 아랍 민주 공화국']
 
 
@@ -150,7 +150,7 @@ function result() {
     B2.innerHTML = `정답 개수 = ${CorrectNumber} / 12`
     next.innerHTML = '타이틀로 가기'
     next.onclick = () => {
-        window.open('C:\\Users\\jswsa\\OneDrive\\바탕 화면\\Dlab(HTML)\\week9_Quiz\\Quiz.html');
+        window.open('./index.html');
     }
 }
 
