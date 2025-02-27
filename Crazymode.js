@@ -47,7 +47,7 @@ const Crazy2Asrs = ['페로 제도', '아이슬란드', '덴마크', '노르웨�
 const Crazy3 = ['../5.Crazy/Crazy 3/Republic of the Sudan(수단).png', 
     '../5.Crazy/Crazy 3/Hashemite Kingdom of Jordan(요르단).png', 
     '../5.Crazy/Crazy 3/State of Palestine(팔레스타인).png', 
-    '../5.Crazy/Crazy 3/Sahrawi Arab Democratic Republic(사하라-아랍-민주-공화국).png'];
+    '../5.Crazy/Crazy 3/Sahrawi Arab Democratic Republic(사하라 아랍 민주 공화국).png'];
 const Crazy3Asrs = ['수단', '요르단', '팔레스타인', '사하라 아랍 민주 공화국']
 
 
