@@ -36,19 +36,19 @@ const Crazy1 = ['/5.Crazy/Crazy_1/Egypt(이집트2).png',
     '/5.Crazy/Crazy_1/Republic of Iraq(이라크).png', 
     '/5.Crazy/Crazy_1/Republic of Yemen(예멘).png', 
     '/5.Crazy/Crazy_1/Syria(시리아).png'];
-const Crazy1Asrs = ['이집트', '이라크', '예멘', '시리아']
+const Crazy1Asrs = ['이집트 |', '이라크 |', '예멘 |', '시리아']
 
 const Crazy2 = ['/5.Crazy/Crazy 2/Færøerne(페로 제도).png', 
     '/5.Crazy/Crazy_2/Iceland(아이슬란드).png', 
     '/5.Crazy/Crazy_2/Kingdom of Denmark(덴마크).png', 
     '/5.Crazy/Crazy_2/Kingdom of Norway(노르웨이).png'];
-const Crazy2Asrs = ['페로 제도', '아이슬란드', '덴마크', '노르웨이']
+const Crazy2Asrs = ['페로 제도 |', '아이슬란드 |', '덴마크 |', '노르웨이,']
 
 const Crazy3 = ['/5.Crazy/Crazy 3/Republic of the Sudan(수단).png', 
     '/5.Crazy/Crazy_3/Hashemite Kingdom of Jordan(요르단).png', 
     '/5.Crazy/Crazy_3/State of Palestine(팔레스타인).png', 
     '/5.Crazy/Crazy_3/Sahrawi Arab Democratic Republic(사하라 아랍 민주 공화국).png'];
-const Crazy3Asrs = ['수단', '요르단', '팔레스타인', '사하라 아랍 민주 공화국']
+const Crazy3Asrs = ['수단 |', '요르단 |', '팔레스타인 |', '사하라 아랍 민주 공화국']
 
 
 
