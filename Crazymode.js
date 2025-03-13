@@ -32,7 +32,7 @@ let YourAnswers = [];
 let CrazyLevel = 1;
 let CorrectNumber = 0;
 
-const Crazy1 = ['/5.Crazy/Crazy_1/Egypt(이집트2).png', 
+const Crazy1 = ['https://upload.wikimedia.org/wikipedia/commons/f/fe/Flag_of_Egypt.svg', 
     '/5.Crazy/Crazy_1/Republic of Iraq(이라크).png', 
     '/5.Crazy/Crazy_1/Republic of Yemen(예멘).png', 
     '/5.Crazy/Crazy_1/Syria(시리아).png'];
